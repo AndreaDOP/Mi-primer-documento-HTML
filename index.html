@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title entre 55 a 65 caracteres-->
+    <title>HTML con Jona Mircha</title>
+    <!--para description no mas de 165 caracteres -->
+    <meta name="description" content="Soy Andrea Valdes @sitiodop.com y estoy comenzando mi aprendizaje en HTML">
+    <link rel="stylesheet" href="Diseño/estilos.css"> 
+    <!--para poner favicon, seguir los pasos de linea12-->
+    <link rel="icon" type="image/png" href="Diseño/favicon.png">
+</head>
+<body>
+    <h2 id="inicio">Aprendiendo HTML</h2>
+    <p>Hola escribiendo mi primer documento HTML</p>
+    <P>Aprendiendo sobre diseño Web</P>
+    <h3>Temario del curso</h3>
+    <!--ul>li*>a--><!--es un atajo rapido para lista enlazadas-->
+    <ul>
+        <li><a href="index.html#encabezados">Encabezados HTML</a></li>
+        <li><a href="index.html#texto-basico">Etiquetas de texto basicas</a></li>
+        <li><a href="index.html#texto-semantico">Etiquetas de texto semánticas</a></li>
+        <li><a href="index.html#etiquetas-de-salto">Etiquetas de saltos</a></li>
+        <li><a href="index.html#etiquetas-de-formateo">Etiquetas de Formateo</a></li>
+        <li><a href="index.html#etiquetas-semánticas-estructurales">Etiquetas semánticas estructurales</a></li>
+        <li><a href="index.html#etiqueta-bloque-linea">Etiquetas de bloques vs etiquetas de linea</a></li>
+        <li><a href="index.html#estilos-css">Estilos en cascadas CSS en HTML</a></li>
+        <li><a href="index.html#imagenes">Imágenes</a></li>
+        <li><a href="index.html#svg">SVG</a></li>
+        <li><a href="index.html#figuras">Figuras</a></li>
+        <li><a href="index.html#listas-ordenadas">Listas Ordenadas</a></li>
+        <li><a href="index.html#listas-desordenadas">Listas Desordenadas</a></li>
+        <li><a href="index.html#listas-definicion">Listas de definición para categorias</a></li>
+        <li><a href="index.html#tablas">Tablas</a></li>
+        <li><a href="index.html#enlaces">Enlaces</a></li>
+        <li><a href="index.html#script">Cómo invovar script a mi HTML (ver cod)</a></li>
+        <li><a href="index.html#"></a></li>
+        <li><a href="index.html#"></a></li>
+        <li><a href="index.html#"></a></li>
+    </ul>
+    
+    <hr>
+    <h2 id="encabezados">Encabezados HTML</h2>
+    <h1>Encabezado nivel 1</h1>
+    <h2>Encabezado nivel 2</h2>
+    <h3>Encabezado nivel 3</h3>
+    <h4>Encabezado nivel 4</h4>
+    <h5>Encabezado nivel 5</h5> 
+    <h6>Encabezado nivel 6</h6>
+    <a href="index.html#inicio">☝️</a>
+    <hr></hr>
+    <h2 id="texto-basico">Etiquetas de texto basicas</H2>
+    <p>Parrafo</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatibus harum rerum 
+      ullam ab libero minima. Dignissimos, iure illum sed dolorem reprehenderit beatae autem, 
+      accusamus praesentium quibusdam incidunt natus inventore?
+    </p>
+    <!--etiquetas de parrafo--> <!--ver las etiquetas amarillas de T/P-->
+    <p>Palabras en <b>negrita</b>, <i>itálica</i>, <u>subrayado</u>, e=mc <sup>2</sup>, 
+        H<SUb>2</SUb>O, <small>letra pequeña</small> </p>
+        <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h2 id="texto-semantico">Etiquetas de texto semánticas</h2>
+    <p>
+        <strong>Esta etiqueta es para dar importancia al texto</strong>
+    </p> 
+    <p><em>Esta etiqueta hace énfasis en el texto</em></p>   
+    <blockquote>Esta etique hace sangrado, para hacer una cita. Yo solo se, que no se nada</blockquote>
+    <cite>Socrates</cite>
+    <br>
+    <a href="index.html#inicio">☝️Back</a>
+    <hr>
+    <h2 id="etiquetas-de-salto">Etiquetas de saltos</h2>
+    <!--Etiquetas de salto de linea-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Dolore explicabo doloribus asperiores quisquam? Vitae modi non quidem dolor dolore.<br> Eligendi animi omnis quos labore natus est iure quidem illum soluta?</p>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h2 id="etiquetas-de-formateo">Etiquetas de Formateo</h2>
+    <p>
+        <pre>
+            Tareas por hacer
+            - HLML
+                - Hacer CV
+                - Hacer con CSS
+            - CSS
+                - Armar carpeta de contenidos
+                - Crear archivos
+        </pre>
+        <p>
+            <code>Esta etiqueta esta en formato de código</code>
+        </p>
+        <a href="index.html#inicio">☝️</a>
+        <hr>
+        <h2 id="etiquetas-semánticas-estructurales">Etiquetas semánticas estructurales (Tambien son etiquetas de boque)</h2>
+        <div>
+            (div) Es una etiqueta contenedora, que no tiene semántica</div>
+        <header>
+            header - Cabecera de un sitio web o de una sección</header>
+        <nav>
+            nav - Representa una navegación</nav>    
+        <main>
+            main - Define la sección principal del documento, sólo puede existir una etiqueta main por documento </main>
+        <article>
+            article - Representa una seccón autocontenida (que por si sola se explica)</article>
+        <aside>
+            aside - Representa contenido complementario o secundario</aside>
+        <section>
+            section - Representa una sección de contenido generico</section>
+        <footer>
+            footer - Pie de página de un sitio web o de una sección</footer>    
+        <address>addres - Representa una dirección y datos de contacto</address>
+        
+        <a href="index.html#inicio">☝️</a>
+        <hr> 
+        <h2 id="etiqueta-bloque-linea">Etiquetas de bloques vs etiquetas de linea</h2>
+        <div style="background-color: yellow;">La etiqueta de bloque por excelencia es "div". Genera saltos de  linea con sus etiquetas hermanas</div>
+        <span style="background-color: rgb(147, 238, 147);">
+            La etiqueta de linea es -span-</span>
+            <span>Hola, soy otra span</span>
+            <br>
+            <a href="index.html#inicio">☝️</a>
+        <hr>
+        <h2 id="estilos-css">Estilos en cascadas CSS en HTML</h2>
+        <a href="index.html#inicio">☝️</a>
+        <hr>
+        <h2>Scripts en HTML</h2>
+        <a href="index.html#inicio">☝️</a>
+        <hr>
+        <h2 id="imagenes">Imágenes</h2>
+        <img src="Diseño/periodic table.png" alt="Tabla periodica de los elementos HTLM">
+        <img src="Diseño/backie.jpg" alt="Mi gata Blackie">
+        <img src="Diseño/Baile.gif" alt="Meme bailando">
+        <hr>
+        <h2 id="svg">SVG</h2>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7ZM9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12Z" fill="currentColor" /><path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M5 1C2.79086 1 1 2.79086 1 5V19C1 21.2091 2.79086 23 5 23H19C21.2091 23 23 21.2091 23 19V5C23 2.79086 21.2091 1 19 1H5ZM19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z" fill="currentColor" /></svg>
+        <img src="Diseño/cat.svg" alt="Vector Gato formato SVG">
+        <a href="index.html#inicio">☝️</a>
+        <hr>
+        <h2 id="figuras">Figuras</h2>
+         <figure>
+            <img src="Diseño/periodic table.png" alt="Tabla de los elementos HTML">
+            <figcaption>Tabla de los elementos HTML</figcaption>
+        </figure>   
+        <a href="index.html#inicio">☝️</a>
+        <hr>
+        <h2 id="listas-ordenadas">Listas Ordenadas</h2>
+        <h3>Las estaciones del año</h3>
+        <ol>
+            <li>Primavera</li>
+            <li>Verano</li>
+            <li>Otoño</li>
+            <li>Inverno</li>
+        </ol>
+        <ol start="3">
+            <li>Primavera</li>
+            <li>Verano</li>
+            <li>Otoño</li>
+            <li>Inverno</li>
+        </ol>
+        <ol reversed>
+            <li>Primavera</li>
+            <li>Verano</li>
+            <li>Otoño</li>
+            <li>Inverno</li>
+        </ol>
+        <ol type="I">
+            <li>Primavera</li>
+            <li>Verano</li>
+            <li>Otoño</li>
+            <li>Inverno</li>
+        </ol>
+        <a href="index.html#inicio">☝️</a>
+        <hr>
+        <h2 id="listas-desordenadas">Listas desordenadas</h2>
+        <h3>Cosas por hacer</h3>
+        <ul>
+            <li>Terminar de hacer este doc</li>
+            <li>Revisar</li>
+            <li>Subir el contenido github</li>
+        </ul>
+        <ul type="circle">
+            <li>Terminar de hacer este doc</li>
+            <li>Revisar</li>
+            <li>Subir el contenido github</li>
+        </ul>
+        <ul type="square">
+            <li>Terminar de hacer este doc</li>
+            <li>Revisar</li>
+            <li>Subir el contenido github</li>
+        </ul>
+        <a href="index.html#inicio">☝️</a>
+        <hr>
+        <h2 id="listas-definicion">Listas de definición. Ideales para categorias</h2>
+        <dl>
+            <dt>HTML</dt>
+                <dd>Es un lenguaje de marcado que define la web</dd>
+            <dt>CSS</dt>
+                <dd>Es un lenguaje de definición que da estilos al codigo HTML</dd>
+            <dt>JavaScript</dt>
+                <dd>Es el lenguaje de la web</dd>
+            </dl>
+            <a href="index.html#inicio">☝️</a>
+            <hr>
+            <h2 id="tablas">Tablas</h2>
+            <table>
+                <tr>
+                    <td>Verduras</td>
+                    <td>Fruras</td>
+                    <td>Granos</td>
+                </tr>
+                <tr>
+                    <td>Lechuga</td>
+                    <td>Frutilla</td>
+                    <td>Lentejas</td>
+                </tr>
+                <tr>
+                    <td>Espinaca</td>
+                    <td>Banana</td>
+                    <td>Melon</td>
+                </tr>
+                <tr>
+                    <td>Rúcula</td>
+                    <td>Naranja</td>
+                    <td>Porotos</td>
+                </tr>
+            </table>
+            <br><br><br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Verduras</th>
+                        <th>Frutas</th>
+                        <th>Granos</th>                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Verduras</td>
+                        <td>Fruras</td>
+                        <td>Granos</td>
+                        </tr>
+                        <tr>
+                        <td>Lechuga</td>
+                        <td>Frutilla</td>
+                         <td>Lentejas</td>
+                        </tr>
+                        <tr>
+                        <td>Espinaca</td>
+                        <td>Banana</td>
+                        <td>Melon</td>
+                        </tr>
+                        <tr>
+                        <td>Rúcula</td>
+                        <td>Naranja</td>
+                        <td>Porotos</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="3"><small>Comer sano by Andre Valdes</small></th>
+                    </tr>
+                </tfoot>
+            </table>
+            <a href="index.html#inicio">☝️</a>
+            <hr>
+            <h2 id="enlaces">Enlaces</h2>
+            <h4>Nota: Recuerda que cuando enlaces a paginas externas, poner tag rel="nofollow"</h4>
+            <a href="hola.html">Hacia la pagina Hola</a>
+            
+            <br>
+            <a href="https://sitiodop.com" target="_blank">  Visita mi primer sitio web, diseñado en wp</a>
+            <br>
+            <a href="https://sitiodop.com/mis-productos/" target="_blank">
+                <img src="Diseño/By Mateo.svg" alt="Mira mis diseños" width="40" height="40"></a>
+                <a href="https://www.instagram.com/dopsitio/" target="_blank"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7ZM9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12Z" fill="currentColor" /><path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M5 1C2.79086 1 1 2.79086 1 5V19C1 21.2091 2.79086 23 5 23H19C21.2091 23 23 21.2091 23 19V5C23 2.79086 21.2091 1 19 1H5ZM19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z" fill="currentColor" /></svg></a>    
+                <br>
+                <a href="index.html#inicio">☝️</a>
+                <br>
+                <a href="mailto:andreavaldescalval@gmail.com">Enlzace a correo electrónico</a>
+                <br>
+                <a href="tel:542216736592">Enlace a Teléfono</a>
+            <hr> 
+            <br>
+            <h2 id="script">Cómo invovar script a mi HTML (ver cod)</h2>    
+        <script>
+            console.log("Hola, estamos aprendiendo HTML");
+        </script>
+        <script src="Diseño/code.js"></script>
+        <a href="index.html#inicio">☝️</a>
+            <hr>
+            <br>
+
+
+
+</body>
+</html>
+
+<!--notas-->
+<!--* leer
+https://emmet.io/
+* Atajos para windows
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+* Revisar tag y sus significados
+https://htmlreference.io/
+* Caracteres especiales HTML (Miguel Angel Alvarez)
+https://desarrolloweb.com/articulos/11.php
+* nota importante de la convencion entre la W3C Y The WhatWG
+https://desarrolloweb.com/articulos/11.php
+* MOZILLA
+https://developer.mozilla.org/es/docs/Web/HTML
+-->

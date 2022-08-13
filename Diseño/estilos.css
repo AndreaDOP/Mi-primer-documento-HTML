@@ -1,0 +1,19 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+}
+h1{
+    color: rgb(87, 233, 19);
+}
+
+h2{
+    color: orangered
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
